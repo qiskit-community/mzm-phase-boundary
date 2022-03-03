@@ -1,5 +1,5 @@
 # mzm-phase-boundary
-This repository contains the code and data from the manuscript "Simulating spectroscopic detection of Majorana zero modes with a superconducting quantum computer."
+This repository contains the code and data from the manuscript ["Simulating spectroscopic detection of Majorana zero modes with a superconducting quantum computer."](http://arxiv.org/abs/2202.12910)
 
 ## Code
 The code herein was run using the development branch of Qiskit Terra, in particular the branch of [Pull Request #6899](https://github.com/Qiskit/qiskit-terra/pull/6899) that makes it possible to run `Parameter`s and `ParameterExpression`s through the `TemplateOptimization` transpiler pass. Some further changes in the main branch occured that caused problems transpiling the circuit resulting from `PauliTrotterEvolution`, hence the `mods-for-mzm-phase` [branch](https://github.com/nbronn/qiskit-terra/tree/mods-for-mzm-phase) is the reliable branch for reproducing results. We are working to include these corrections into the main branch of Qiskit Terra.
